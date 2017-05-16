@@ -172,6 +172,7 @@ nav#menu a{
 	height: 100%;
 	width: 300px;
 	position: absolute;
+	z-index: 999999;
 	transition: all .2s linear;
 	left: -300px;
 	margin: 47px 0px 0px 0px;
