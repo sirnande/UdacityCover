@@ -151,11 +151,15 @@ nav#menu a{
 	visibility: visible;
 }
 
+
+
 /************************ ICONE MENU ************************************/
 .iconevisivel{
 	visibility: hidden;
 	float: left;
 }
+
+
 #check{
 	display: none;
 }
