@@ -1,2 +1,13 @@
+controllers/PrimeiroServlet.class
+banco/CarregarCursos.class
+controllers/UploadServlet.class
+banco/Confirme.class
+controllers/Sair.class
 Primeira.class
+controllers/GravarImagen.class
+controllers/Login.class
 launch/Main.class
+extras/Curso.class
+controllers/Teste.class
+controllers/Cadastro.class
+banco/ConexaoBanco.class
