@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Udacity - Cursos Machine Learning, Deep Learning, AI, Realidade Virtual, Data Science, Android, Web</title>
+    <link rel="shortcut icon" href="../media/logo-mark.svg">
+    <link rel="stylesheet" type="text/css" href="../css/cadastro.css">
+    <meta charset="utf-8">
+
+</head>
+<body>
+<div class="cadastro">
+    <form action="/Upload" method="post" enctype="multipart/form-data">
+        <h1>Cadastro Curso</h1>
+        <input type="nome" name="nome" id="nome" placeholder="Nome do Curso" required><br><br>
+        <input type="descricao" name="descricao" id="descricao" placeholder="Descricao do Curso" required><br><br>
+        <input type="duracao" name="duracao" id="duracao" placeholder="duracao do Curso" required><br><br>
+        <label class="customFileInput clearfixc">
+            <div class="button">Escolha uma Arquivo</div>
+            <input type="file" name="file" >
+        </label><br><br>
+        <button name="submit" value="" type="submit" class="btn btn-primary btn-block btn-flat">Cadastrar </button>
+
+    </form>
+</div>
+</body>
+</html>

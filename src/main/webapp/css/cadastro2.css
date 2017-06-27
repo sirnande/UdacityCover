@@ -1,0 +1,136 @@
+/*
+body{
+
+    padding:200px;
+    padding-left:550px;
+    padding-right:550px;
+    background-image:url("../media/cadastrar.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #e7e7e7;
+
+}*/
+.cadastro {
+    height: auto;
+    width: 80%;
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    margin: 6px 0px 0px 0px;
+    background: rgba(0,0,0,0.5);
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+}
+
+h1{
+    color:white;
+}
+input{
+    width:83%;
+    height:30px;
+}
+input[type="submit"]{
+    background: #3399ff;
+    border: 0;
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.4s linear;
+}
+
+/*****************************************************/
+
+.caixaCurso{
+    background-color: snow;
+    width: 88%;
+    margin: 91px 0px 0px 22px;
+    height: 162px;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.37);
+
+}
+
+.caixaCurso a {
+    display: block;
+    height: 100%;
+    width: 38%;
+}
+
+.caixaCurso img {
+    height: inherit;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 2px;
+    border-radius: 5px;
+}
+.caixaCurso h5 {
+    color: #2e3d49;
+}
+
+.caixaCurso p {
+    color: #525c65;
+}
+
+.cursoAjuste{
+    margin: 128px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.cursoTexto{
+    float: right;
+    display: inline-block;
+    width: 56%;
+    position: relative;
+    top: -73%;
+    transform: translateY(94%);
+    margin: 0;
+    color: blue;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+.cursoTamanho{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 9px 0px;
+}
+
+.cursoAzul{
+    color: #02b3e4 ;
+}
+
+.cursoRoxo {
+    color: #a951ed;
+}
+
+.cursoVermelho {
+    color: #ff5483;
+}
+
+.cursoSobrepor_video {
+    float: left;
+    display: block;
+    margin-right: 1.69492%;
+    width: 300%;
+    position: relative;
+    top: -51%;
+    transform: translateY(-50%);
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.cursoTexto__sobrepor {
+    margin-bottom: 0.75rem;
+}
