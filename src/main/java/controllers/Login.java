@@ -78,6 +78,7 @@ public class Login extends HttpServlet {
                 request.getSession().setAttribute("curso",cursos);
 
                 System.out.println(r.getString("nome"));
+                System.out.println("Naegation Udacity cover");
 
                 RequestDispatcher rd  = request.getRequestDispatcher("/pagina_admin/admin.jsp");
                 System.out.println(rd);
