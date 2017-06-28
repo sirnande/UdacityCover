@@ -17,8 +17,10 @@ public class ConexaoBanco {
        try{
 
                //Class.forName("com.mysql.jdbc.Driver");
-               dbUrl = "jdbc:postgres://fzvfminzvijebo:07c42fb05b10eccfd0f0378e48e74c8bd8a5e5bcf6a571fe4a2c5830a45e9c77@ec2-23-23-86-179.compute-1.amazonaws.com:5432/db0c0krsvl11do?user=fzvfminzvijebo&password=07c42fb05b10eccfd0f0378e48e74c8bd8a5e5bcf6a571fe4a2c5830a45e9c77&sslmode=require";
-               conexao = DriverManager.getConnection(dbUrl);
+               dbUrl = "jdbc:postgres://fzvfminzvijebo:07c42fb05b10eccfd0f0378e48e74c8bd8a5e5bcf6a571fe4a2c5830a45e9c77@ec2-23-23-86-179.compute-1.amazonaws.com:5432/db0c0krsvl11do";
+               String user = "fzvfminzvijebo";
+               String passw = "07c42fb05b10eccfd0f0378e48e74c8bd8a5e5bcf6a571fe4a2c5830a45e9c77";
+               conexao = DriverManager.getConnection(dbUrl, user, passw);
 
                System.out.println("Fez requisicao");
 
