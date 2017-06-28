@@ -59,6 +59,7 @@ public class Login extends HttpServlet {
       //  ResultSet listcurso = null;
 
         System.out.println(email + "   "+senha);
+        System.out.println("Sejam bem vindos add.....\n\n");
 
         try{
             PreparedStatement pmt = c.prepareStatement(sql);
