@@ -77,7 +77,7 @@ public class Login extends HttpServlet {
                 request.getSession().setAttribute("tipo",r.getString("tipo"));
                 request.getSession().setAttribute("curso",cursos);
 
-                System.out.println(r.getString("tipo"));
+                System.out.println(r.getString("nome"));
 
                 RequestDispatcher rd  = request.getRequestDispatcher("/pagina_admin/admin.jsp");
                 System.out.println(rd);
