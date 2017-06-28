@@ -15,7 +15,7 @@ public class ConexaoBanco {
 
    private ConexaoBanco() {
        try{
-
+              //tetste mestre
                //Class.forName("com.mysql.jdbc.Driver");
                dbUrl = "jdbc:postgres://ec2-23-23-86-179.compute-1.amazonaws.com:5432/db0c0krsvl11do";
                String user = "fzvfminzvijebo";
